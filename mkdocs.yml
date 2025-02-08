@@ -1,0 +1,4 @@
+site_name: Python for Dummies
+site_url: https://lucaslrodri.githubpages.com/python-for-dummies
+theme:
+  name: material
