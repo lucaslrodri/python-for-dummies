@@ -3,6 +3,7 @@ site_url: https://lucaslrodri.githubpages.com/python-for-dummies
 nav:
   - Home: index.md
   - Notebook page: notebook.ipynb
+  - Capítulo 1: primeiros-passos.
 theme:
   name: material
 plugins:
