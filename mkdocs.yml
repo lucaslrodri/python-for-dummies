@@ -7,5 +7,21 @@ nav:
   - Capítulo 1: primeiros-passos.ipynb
 theme:
   name: material
+  language: pt-BR
+  palette:
+    primary: white
+
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.footer
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+
 plugins:
   - mkdocs-jupyter
