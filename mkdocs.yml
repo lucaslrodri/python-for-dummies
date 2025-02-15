@@ -2,7 +2,7 @@ site_name: Python para iniciantes
 site_author: Lucas Lima Rodrigues
 site_description: Curso de Python para iniciantes
 # repo_url: https://github.com/lucaslrodri/python-for-dummies/
-site_url: https://lucaslrodri.githubpages.com/python-for-dummies
+site_url: https://lucaslrodri.github.io/python-for-dummies/
 use_directory_urls: false
 
 nav:
