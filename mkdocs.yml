@@ -1,27 +1,56 @@
-site_name: Python for Dummies
+site_name: Python para iniciantes
+site_author: Lucas Lima Rodrigues
+site_description: Curso de Python para iniciantes
+# repo_url: https://github.com/lucaslrodri/python-for-dummies/
 site_url: https://lucaslrodri.githubpages.com/python-for-dummies
 use_directory_urls: false
+
 nav:
   - Home: index.md
-  - Notebook page: notebook.ipynb
-  - Capítulo 1: primeiros-passos.ipynb
 theme:
   name: material
+  custom_dir: docs/overrides
+  logo: assets/icon.svg
+  favicon: assets/favicon.svg
   language: pt-BR
   palette:
     primary: white
-
+    accent: custom
   icon:
     repo: fontawesome/brands/github
   features:
     - content.code.copy
     - content.code.annotate
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.footer
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.suggest
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: CCET - Centro de Ciências Exatas e Tecnológicas<br>Curso de Engenharia Elétrica
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lucaslrodri/python-for-dummies/
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
 plugins:
   - mkdocs-jupyter
+  - search
+  - macros

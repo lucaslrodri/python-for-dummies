@@ -1,0 +1,83 @@
+:root > * {
+  --md-primary-fg-color: #fafafa;
+  --md-primary-fg-color--light: #334155;
+  --md-primary-fg-color--dark: #27272a;
+  --md-primary-bg-color: #27272a;
+  --md-primary-bg-color--light: #616161;
+  --md-primary-bg-color--dark: #616161;
+  --md-accent-fg-color: #2367db;
+  --md-accent-fg-color--light: #ffbe16;
+  --md-accent-fg-color--dark: #0c3a89;
+  --md-typeset-a-color: #1c51ad;
+}
+
+.md-header__title .md-ellipsis {
+  color: #616161;
+}
+
+.md-header__title .md-ellipsis {
+  color: #616161;
+}
+
+.md-source__icon,
+.md-source__repository {
+  color: #414141;
+}
+
+.md-search__form .md-search__icon {
+  color: #616161;
+}
+
+.md-header--shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+[data-md-color-scheme="whatsapp"] {
+  --md-primary-fg-color: #25d366;
+  --md-primary-fg-color--light: #dcf8c6;
+  --md-primary-fg-color--dark: #075e54;
+  --md-typeset-a-color: #128c7e;
+}
+
+.whatsapp {
+  background-color: #128c7e;
+  border-color: #128c7e !important;
+  color: #fff !important;
+  text-color: #fff !important;
+}
+
+.whatsapp:hover {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.whatsapp:active {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.whatsapp:focus {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.md-footer-meta__item--ufac-logo {
+  height: 2rem;
+  align-self: center;
+  margin-left: 1rem;
+  justify-self: center;
+}
+
+.md-footer-meta__item--copyright {
+  text-align: center;
+}
+
+@media (max-width: 530px) {
+  .md-footer-meta__item--copyright {
+    text-align: left;
+  }
+}
+
+.md-footer-meta__item--ufac-logo img {
+  height: 100%;
+}
