@@ -66,6 +66,7 @@
   align-self: center;
   margin-left: 1rem;
   justify-self: center;
+
 }
 
 .md-footer-meta__item--copyright {
@@ -75,6 +76,13 @@
 @media (max-width: 530px) {
   .md-footer-meta__item--copyright {
     text-align: left;
+  }
+}
+
+@media (max-width: 462px) {
+  .md-footer-meta__item--ufac-logo {
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
   }
 }
 
