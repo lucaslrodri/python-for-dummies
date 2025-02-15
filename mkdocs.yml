@@ -53,4 +53,5 @@ extra_javascript:
 plugins:
   - mkdocs-jupyter
   - search
+  - social
   - macros
