@@ -25,9 +25,7 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - name: Install poetry
-        run: |
-          pip install poetry
+      - run: pip install mkdocs-material mkdocs-jupyter poetry
       - name: Install dependencies
         run: |
           poetry install
