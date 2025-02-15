@@ -24,9 +24,11 @@ jobs:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache
           restore-keys: |
-            mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-jupyter poetry
+            mkdocs-material
+      - name: Install poetry
+        run: |
+          pip install poetry
       - name: Install dependencies
         run: |
           poetry install
-      - run: mkdocs gh-deploy --force
+      - run: poetry run mkdocs gh-deploy --force
