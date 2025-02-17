@@ -14,10 +14,13 @@ hide:
   /></a>
 </p>
 
+!!! warning "Vagas presenciais esgotadas"
+    As vagas presenciais para o laboratório de IA da UFAC foram totalmente preenchidas. Novas inscrições serão realizadas na modalidade online (Via Google Meet), com possibilidade de mudança para o formato presencial caso ocorram desistências.
+
 <p style="width:100%;  display:flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap;" markdown>
 
 <a class="md-button md-button--primary" href="https://forms.gle/XGEn2feL2qj1hMEc7" target="_blank" markdown>
-    Inscreva-se no curso :octicons-arrow-right-16:{ .lg .middle }
+    Inscreva-se no curso (Modalidade online) :octicons-arrow-right-16:{ .lg .middle }
 </a>
 <a class="md-button whatsapp" markdown href="https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX" target="_blank">
 :material-whatsapp:{ .lg .middle } Grupo do WhatsApp
