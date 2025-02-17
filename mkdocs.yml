@@ -5,8 +5,9 @@ site_description: Site de apoio para o curso de Python para iniciantes
 site_url: https://lucaslrodri.github.io/python-for-dummies/
 use_directory_urls: false
 
-nav:
-  - Home: index.md
+# nav:
+  # - Sobre o curso: index.md
+  # - Conteúdo: conteudo.md
 theme:
   name: material
   custom_dir: docs/overrides

@@ -39,7 +39,7 @@ As atividades práticas semanais serão realizadas presencialmente no laboratór
 
 **Horário:** 8h as 11hs (5ª feira)
 
-**Início:** 26 de fevereiro de 2025
+**Início:** 27 de fevereiro de 2025
 
 **Link para inscrição:** [https://forms.gle/XGEn2feL2qj1hMEc7](https://forms.gle/XGEn2feL2qj1hMEc7)
 
