@@ -69,3 +69,4 @@ Procure por **Download** e baixe o instalador:
 ```bash
 conda -v
 ```
+

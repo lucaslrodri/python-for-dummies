@@ -1,23 +1,23 @@
 ---
-# hide:
-  # - navigation
+hide:
+  - navigation
 ---
 
 # Sobre o curso
 
 <p align="center">
-  <a href="https://forms.gle/XGEn2feL2qj1hMEc7" target="_blank"
+  <a href="https://chat.whatsapp.com/BdxLsIhp0I07J3sMho8DPX" target="_blank"
     ><img
       alt="Arte de divulgação"
-      src="./assets/home/banner_redes_sociais.png"
+      src="./assets/home/banner_whatsapp.png"
       style="width: calc(100% - 2rem); max-width: 600px;"
   /></a>
 </p>
 
 <p style="width:100%;  display:flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap;" markdown>
 
-<a class="md-button md-button--primary" href="https://forms.gle/XGEn2feL2qj1hMEc7" target="_blank" markdown>
-    Inscreva-se no curso :octicons-arrow-right-16:{ .lg .middle }
+<a class="md-button" href="https://meet.google.com/drn-tuyk-gxj" target="_blank" markdown>
+    :simple-googlemeet:{ .lg .middle } Google Meet (Acesso remoto)
 </a>
 <a class="md-button whatsapp" markdown href="https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX" target="_blank">
 :material-whatsapp:{ .lg .middle } Grupo do WhatsApp
