@@ -7,8 +7,10 @@
   --md-primary-bg-color--dark: #616161;
   --md-accent-fg-color: #2367db;
   --md-accent-fg-color--light: #ffbe16;
+  --md-accent-fg-color--very-light:rgba(255, 189, 22, 0.19);
   --md-accent-fg-color--dark: #0c3a89;
   --md-typeset-a-color: #1c51ad;
+  --md-typset-emph-color: #616161;
 }
 
 .md-header__title .md-ellipsis {
@@ -89,3 +91,60 @@
 .md-footer-meta__item--ufac-logo img {
   height: 100%;
 }
+
+
+/* Ambiente de figuras */
+
+
+
+figure figcaption {
+  font-size: 0.8rem;
+  color: var(-md-primary-bg-color--light);
+}
+
+figure figcaption::before {
+  content: " Figura: ";
+  font-weight: bold;
+  color: var(--md-primary-fg-color--dark);
+  border-left: 4px solid var(--md-accent-fg-color--light);
+  padding-left: 0.25rem;
+  /* color: #0c3a89; */
+}
+
+
+/* Admonitions */
+
+.emph-card {
+  /* background-color: var(--md-primary-bg-color--light); */
+  border: 1px solid var(--md-typeset-a-color);
+  border-radius: 0.2rem;
+  text-align: center;
+  padding: 0.4rem;
+  margin: 1rem 0rem;
+  box-shadow: 0 0.2rem 0.5rem #0000000d,0 0 0.05rem #0000001a;
+}
+
+/* Lists */
+
+ol li::marker {
+  font-weight: bold;
+  color: var(--md-accent-fg-color--light);
+}
+
+ul li::marker {
+  font-weight: bold;
+  color: var(--md-accent-fg-color--light);
+}
+
+/* .md-typeset .admonition.tip, .md-typeset details.tip {
+  border-color: var(--md-accent-fg-color--light);
+  border-
+}
+
+.md-typeset .tip>.admonition-title:before, .md-typeset .tip>summary:before{
+  background-color: var(--md-accent-fg-color--light);
+}
+
+.md-typeset .tip>.admonition-title, .md-typeset .tip>summary{
+  background-color: var(--md-accent-fg-color--very-light);
+} */
