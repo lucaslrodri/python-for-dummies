@@ -1,6 +1,6 @@
 ---
-hide:
-  - navigation
+# hide:
+  # - navigation
 ---
 
 # Sobre o curso
@@ -73,6 +73,3 @@ Laboratório de Inteligência Artificial do Curso de Engenharia Elétrica - Bloc
     **Clarice Moreira de Oliveira (Discente)**
 
 </div>
-
-
-Omarchu
