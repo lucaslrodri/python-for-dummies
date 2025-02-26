@@ -17,9 +17,18 @@ document.addEventListener('DOMContentLoaded', function() {
   
     cardLinks.forEach(link => {
       const downloadLink = link.getAttribute('data-download');
+      
+      // Add click event listener to the card link
       link.addEventListener('click', function(event) {
-        event.preventDefault();
-        window.location.href = downloadLink;
+        const rect = link.getBoundingClientRect();
+        const x = event.clientX - rect.left; // x position within the element
+        const y = event.clientY - rect.top;  // y position within the element
+
+        // Check if the click is within the bounds of the ::after element
+        if (x >= rect.width - 50 && y >= 0 && y <= rect.height) { // Adjust 50 to the width of the ::after element
+          event.preventDefault();
+          window.location.href = downloadLink;
+        }
       });
     });
-  });
+});
