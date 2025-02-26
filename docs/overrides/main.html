@@ -20,3 +20,16 @@
 <meta name="twitter:image" content="https://lucaslrodri.github.io/python-for-dummies/assets/social/twitter.png">
 <meta name="twitter:url" content="https://lucaslrodri.github.io/python-for-dummies/">
 {% endblock %}
+
+
+{% block content %}
+{% if page.nb_url %}
+    <a href="{{ page.nb_url }}" title="Baixe o Notebook" class="md-content__button md-icon">
+        <i class="fas fa-download fa-xl"></i>
+    </a>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
+
+:fontawesome-solid-download:
