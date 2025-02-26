@@ -11,3 +11,15 @@ document.querySelectorAll("a").forEach(function (element) {
         }
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const cardLinks = document.querySelectorAll('.card-link[data-download]');
+  
+    cardLinks.forEach(link => {
+      const downloadLink = link.getAttribute('data-download');
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = downloadLink;
+      });
+    });
+  });
