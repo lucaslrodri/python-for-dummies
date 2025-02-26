@@ -31,4 +31,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
+
+    // Inject WhatsApp icon if the link contains the word "WhatsApp"
+    const links = document.querySelectorAll('li.md-tabs__item a');
+    links.forEach(link => {
+        if (link.textContent.includes('WhatsApp')) {
+            const icon = document.createElement('i');
+            icon.className = 'fab fa-whatsapp fa-lg'; // FontAwesome WhatsApp icon class
+            icon.style.marginRight = '5px'; // Optional: Add some margin for spacing
+            icon.style.transform = 'translateY(9px)'; // Optional: Increase the size of the icon
+            link.insertBefore(icon, link.firstChild);
+        }
+        if (link.textContent.includes('Google Meet')) {
+            const icon = document.createElement('img');
+            icon.src = "https://cdn.simpleicons.org/googlemeet/616161";
+            icon.alt = 'Google Meet';
+            icon.style.width = '20px'; // Adjust the size as needed
+            icon.style.marginRight = '5px'; // Optional: Add some margin for spacing
+            icon.style.transform = 'translateY(-1px)'; // Optional: Increase the size of the icon
+            link.insertBefore(icon, link.firstChild);
+        }
+    });
 });
