@@ -154,6 +154,8 @@ figure figcaption::before {
 /* Cards */
 .card-link {
   color: var(--md-typeset-color) !important;
+  position: relative;
+  padding-right: 1.3rem; /* Adjust as needed to make space for the icon */
 }
 
 .card-link-blue {
@@ -164,6 +166,22 @@ figure figcaption::before {
 .card-link-blue:hover {
   color: var(--md-accent-fg-color) !important;
 }
+
+.card-link[data-download]::after {
+  content: '\f019'; /* Unicode for download icon, assuming you are using a font like FontAwesome */
+  font-family: 'FontAwesome'; /* Make sure to include the FontAwesome library in your project */
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  /* color: var(--md-accent-fg-color--light); */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .card-link[data-download]:hover::after {
+  color: var(--md-primary-bg-color--light); /* Change the color to yellow on hover */
+} */
 
 
 /* Lists */

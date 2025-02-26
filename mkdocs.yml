@@ -43,6 +43,7 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.indexes
+    - content.tooltips
     # - content.action.edit
     # - content.action.view
 
@@ -69,6 +70,7 @@ extra:
 extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
 
 extra_javascript:
   - javascripts/extra.js
