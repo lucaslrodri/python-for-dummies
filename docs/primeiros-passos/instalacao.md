@@ -63,10 +63,51 @@ Procure por **Download** e baixe o instalador:
 
 2. Depois de baixar inicie o instalador. Siga os passos como a instalação de qualquer outro programa do Windows. Contudo, atente-se para selecionar `Add to my PATH variable`, como mostrado na figura abaixo:
 
+<figure markdown="span">
+  ![](../assets/primeiros-passos/instalacao-anaconda.png){ width="100%" }
+  <figcaption>Tela de instalação do Anaconda.</figcaption>
+</figure>
 
-3. Após a instalação certifique-se se o ambiente do Anaconda  está disponível no terminal testando o seguinte comando:
+3. Após a instalação certifique-se se o ambiente do Anaconda está disponível no terminal. Para isso, abra o terminal do Windows pelo Menu Iniciar:
+
+<figure markdown="span">
+  ![](../assets/primeiros-passos/terminal-windows.png){ width="100%" }
+  <figcaption>Buscando o terminal do Windows pelo Menu Iniciar.</figcaption>
+</figure>
+
+
+No terminal teste o seguinte comando:
 
 ```bash
-conda -v
+conda --version
 ```
 
+Isto deve retornar a saída com a versão do conda instalado:
+
+<div class="log-card">
+<pre>conda 23.11.0</pre>
+</div>
+
+## Jupyter Lab Deskkop
+
+Tradicionalmente, o Jupyter Lab é acessado pelo navegador web por meio do comando:  
+
+```bash
+jupyter lab
+```
+
+No entanto, essa abordagem pode não ser a mais eficiente. Felizmente, o **Jupyter Lab Desktop** oferece uma alternativa mais prática, permitindo o acesso ao ambiente por meio de uma interface gráfica dedicada, em vez do navegador.  
+
+Além disso, o aplicativo associa arquivos no formato `.ipynb` ao Jupyter Lab Desktop, facilitando a abertura de notebooks diretamente pelo gerenciador de arquivos.
+
+### Instalação do Jupyter Lab Desktop
+
+1. Para instalar o Jupyter Lab basta acessar a **página no Github** (abaixo) e baixar a versão correspondente ao seu sistema operacional.
+
+<center class="emph-card">
+  <a href="https://github.com/jupyterlab/jupyterlab-desktop" target="_blank">https://github.com/jupyterlab/jupyterlab-desktop</a>
+</center>
+
+2. Instale normalmente seguindo os passos de instalação como qualquer outro programa. 
+
+3. Depois é só abrir o Jupyter Lab Desktop como qualquer outro aplicativo.

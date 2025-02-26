@@ -124,6 +124,33 @@ figure figcaption::before {
   box-shadow: 0 0.2rem 0.5rem #0000000d,0 0 0.05rem #0000001a;
 }
 
+.log-card {
+  border: solid 1px var(--md-default-fg-color--lightest);
+  padding: 0 0.75rem;
+  border-radius: 5px;
+  font-family: monospace;
+  max-height: 20rem;
+  font-size: 0.65rem;
+}
+
+/* .log-terminal{
+  font-family: monospace;
+}
+
+.log-output {
+  font-family: monospace;
+  max-height: 20rem;
+  font-size: 0.65rem;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--md-default-fg-color--lighter) white;
+}
+
+.log-output:hover {
+  scrollbar-color: var(--md-accent-fg-color) white;
+} */
+
+
 /* Lists */
 
 ol li::marker {
