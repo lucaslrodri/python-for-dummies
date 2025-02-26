@@ -151,6 +151,21 @@ figure figcaption::before {
 } */
 
 
+/* Cards */
+.card-link {
+  color: var(--md-typeset-color) !important;
+}
+
+.card-link-blue {
+  color: var(--md-typeset-a-color) !important;
+}
+
+.card-link:hover,
+.card-link-blue:hover {
+  color: var(--md-accent-fg-color) !important;
+}
+
+
 /* Lists */
 
 ol li::marker {
