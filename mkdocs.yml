@@ -13,8 +13,8 @@ nav:
       - Interface do Jupyter Lab: primeiros-passos/interface.ipynb
       - Introdução ao Markdown: primeiros-passos/markdown.md
       - Introdução ao Python: primeiros-passos/python.ipynb
-  - Google Meet 🡥: https://meet.google.com/drn-tuyk-gxj
-  - Grupo do WhatsApp 🡥: https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX
+  - Google Meet: https://meet.google.com/drn-tuyk-gxj
+  - Grupo do WhatsApp: https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX
   - Mais informações: sobre.md
 
 # nav:
@@ -43,6 +43,9 @@ theme:
     - toc.follow
     - toc.integrate
     - navigation.indexes
+    - content.tooltips
+    # - content.action.edit
+    # - content.action.view
 
 markdown_extensions:
   - attr_list
@@ -54,6 +57,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+  - pymdownx.arithmatex:
+      generic: true
+
 copyright: CCET - Centro de Ciências Exatas e Tecnológicas<br>Curso de Engenharia Elétrica
 
 extra:
@@ -63,12 +69,18 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
 
 extra_javascript:
   - javascripts/extra.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 
 plugins:
-  - mkdocs-jupyter
   - search
-  # - social
   - macros
+  # - social
+  - mkdocs-jupyter:
+      include_source: True

@@ -37,6 +37,6 @@ hide:
 [:simple-anaconda:{ .lg .middle } Instalação do ambiente](./primeiros-passos/instalacao.md){ .card .card-link }
 [:simple-jupyter:{ .lg .middle } A interface do Jupyter Lab](./primeiros-passos/interface.ipynb){ .card .card-link }
 [:simple-markdown:{ .lg .middle } Introdução ao Markdown](./primeiros-passos/markdown.md){ .card .card-link }
-[:simple-python:{ .lg .middle } Introdução ao Python](./primeiros-passos/python.ipynb){ .card .card-link }
+[:simple-python:{ .lg .middle } Introdução ao Python](./primeiros-passos/python.ipynb){ .card .card-link data-download="./primeiros-passos/python.ipynb" }
 </div>
 </div>

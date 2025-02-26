@@ -142,4 +142,3 @@ notebook/templates/*.html
 *.virtual_documents
 *.virtual_documents/*
 *.jupyterlab-workspace
-/__pycache__
