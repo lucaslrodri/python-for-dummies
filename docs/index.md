@@ -14,9 +14,6 @@ hide:
   /></a>
 </p>
 
-!!! warning "Vagas presenciais esgotadas"
-    As vagas presenciais para o laboratório de IA da UFAC foram totalmente preenchidas. Novas inscrições serão realizadas na modalidade online (Via Google Meet), com possibilidade de mudança para o formato presencial caso ocorram desistências.
-
 <p style="width:100%;  display:flex; justify-content: center; align-items: center; gap: 1rem; flex-wrap: wrap;" markdown>
 
 <a class="md-button" href="https://meet.google.com/drn-tuyk-gxj" target="_blank" markdown>
