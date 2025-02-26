@@ -5,6 +5,18 @@ site_description: Site de apoio para o curso de Python para iniciantes
 site_url: https://lucaslrodri.github.io/python-for-dummies/
 use_directory_urls: false
 
+nav:
+  - Início: index.md
+  - Conteúdo:
+    - Primeiros passos:
+      - Instalação do Ambiente: primeiros-passos/instalacao.md
+      - Interface do Jupyter Lab: primeiros-passos/interface.ipynb
+      - Introdução ao Markdown: primeiros-passos/markdown.md
+      - Introdução ao Python: primeiros-passos/python.ipynb
+  - Google Meet 🡥: https://meet.google.com/drn-tuyk-gxj
+  - Grupo do WhatsApp 🡥: https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX
+  - Mais informações: sobre.md
+
 # nav:
   # - Sobre o curso: index.md
   # - Conteúdo: conteudo.md
@@ -22,16 +34,20 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.footer
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.suggest
+    - toc.follow
+    - toc.integrate
+    - navigation.indexes
 
 markdown_extensions:
   - attr_list
   - md_in_html
+  - sane_lists
   - admonition
   - pymdownx.superfences
   - pymdownx.emoji:
