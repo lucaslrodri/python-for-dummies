@@ -10,9 +10,9 @@ nav:
   - Conteúdo:
     - Primeiros passos:
       - Instalação do Ambiente: primeiros-passos/instalacao.md
-      - Interface do Jupyter Lab: primeiros-passos/interface.ipynb
+      - Interface do Jupyter Lab: primeiros-passos/interface-do-jupyter.ipynb
       - Introdução ao Markdown: primeiros-passos/markdown.md
-      - Introdução ao Python: primeiros-passos/python.ipynb
+      - Introdução ao Python: primeiros-passos/introducao-ao-python.ipynb
   - Google Meet: https://meet.google.com/drn-tuyk-gxj
   - Grupo do WhatsApp: https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX
   - Mais informações: sobre.md
@@ -41,7 +41,7 @@ theme:
     - search.highlight
     - search.suggest
     - toc.follow
-    - toc.integrate
+    # - toc.integrate
     - navigation.indexes
     - content.tooltips
     # - content.action.edit

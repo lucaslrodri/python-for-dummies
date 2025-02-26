@@ -35,8 +35,8 @@ hide:
 
 <div class="grid cards" markdown="span">
 [:simple-anaconda:{ .lg .middle } Instalação do ambiente](./primeiros-passos/instalacao.md){ .card .card-link }
-[:simple-jupyter:{ .lg .middle } A interface do Jupyter Lab](./primeiros-passos/interface.ipynb){ .card .card-link }
+[:simple-jupyter:{ .lg .middle } A interface do Jupyter Lab](./primeiros-passos/interface-do-jupyter.ipynb){ .card .card-link data-download="./primeiros-passos/interface-do-jupyter.ipynb"  }
 [:simple-markdown:{ .lg .middle } Introdução ao Markdown](./primeiros-passos/markdown.md){ .card .card-link }
-[:simple-python:{ .lg .middle } Introdução ao Python](./primeiros-passos/python.ipynb){ .card .card-link data-download="./primeiros-passos/python.ipynb" }
+[:simple-python:{ .lg .middle } Introdução ao Python](./primeiros-passos/introducao-ao-python.ipynb){ .card .card-link data-download="./primeiros-passos/introducao-ao-python-pt-1.ipynb" }
 </div>
 </div>
