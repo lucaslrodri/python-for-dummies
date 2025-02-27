@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://lucaslrodri.github.io/python-for-dummies/index.html</loc>
+         <lastmod>2025-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://lucaslrodri.github.io/python-for-dummies/sobre.html</loc>
+         <lastmod>2025-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://lucaslrodri.github.io/python-for-dummies/primeiros-passos/instalacao.html</loc>
+         <lastmod>2025-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://lucaslrodri.github.io/python-for-dummies/primeiros-passos/interface-do-jupyter.html</loc>
+         <lastmod>2025-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://lucaslrodri.github.io/python-for-dummies/primeiros-passos/introducao-ao-markdown.html</loc>
+         <lastmod>2025-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://lucaslrodri.github.io/python-for-dummies/primeiros-passos/introducao-ao-python.html</loc>
+         <lastmod>2025-02-27</lastmod>
+    </url>
+</urlset>
