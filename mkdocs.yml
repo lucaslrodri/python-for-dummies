@@ -13,6 +13,9 @@ nav:
       - Interface do Jupyter Lab: primeiros-passos/interface-do-jupyter.ipynb
       - Introdução ao Markdown: primeiros-passos/introducao-ao-markdown.ipynb
       - Introdução ao Python: primeiros-passos/introducao-ao-python.ipynb
+    - Saída de dados:
+      - Textos ricos em Markdown: saida-de-dados/markdown-rico.ipynb
+      - Saída em texto simples: saida-de-dados/saida-de-dados.ipynb
   - Google Meet: https://meet.google.com/drn-tuyk-gxj
   - Grupo do WhatsApp: https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX
   - Mais informações: sobre.md
