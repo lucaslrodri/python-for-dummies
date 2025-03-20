@@ -16,6 +16,7 @@ nav:
     - Saída de dados:
       - Textos ricos em Markdown: saida-de-dados/markdown-rico.ipynb
       - Saída em texto simples: saida-de-dados/saida-de-dados.ipynb
+      - Formatação de strings: saida-de-dados/formatacao-de-strings.ipynb
   - Google Meet: https://meet.google.com/drn-tuyk-gxj
   - Grupo do WhatsApp: https://chat.whatsapp.com/JPSWWNuegVKKWH1FpXEhMX
   - Mais informações: sobre.md
@@ -83,7 +84,7 @@ extra_javascript:
 
 plugins:
   - search
-  - macros
+  # - macros
   # - social
   - mkdocs-jupyter:
       include_source: True

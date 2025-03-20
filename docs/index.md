@@ -52,7 +52,7 @@ hide:
 <div class="grid cards" markdown="span">
 [:simple-markdown:{ .lg .middle } Textos ricos em Markdown](./saida-de-dados/markdown-rico.ipynb){ .card .card-link data-download="./saida-de-dados/markdown-rico.ipynb" }
 [:octicons-terminal-16:{ .lg .middle } Saída em texto simples](./saida-de-dados/saida-de-dados.ipynb){ .card .card-link  data-download="./saida-de-dados/saida-de-dados.ipynb" }
-<!-- [:octicons-terminal-16:{ .lg .middle } Formatação de strings](./saida-de-dados/formatacao-de-strings.ipynb){ .card .card-link  data-download="./saida-de-dados/formatacao-de-strings.ipynb" } -->
+[:material-hexadecimal:{ .lg .middle } Formatação de strings](./saida-de-dados/formatacao-de-strings.ipynb){ .card .card-link  data-download="./saida-de-dados/formatacao-de-strings.ipynb" }
 <!-- [:octicons-terminal-16:{ .lg .middle } Módulos e pacotes](./saida-de-dados/modulos-e-pacotes.ipynb){ .card .card-link  data-download="./saida-de-dados/modulos-e-pacotes.ipynb" } -->
 </div>
 </div>
