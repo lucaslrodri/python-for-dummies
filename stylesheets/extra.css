@@ -1,0 +1,210 @@
+:root > * {
+  --md-primary-fg-color: #fafafa;
+  --md-primary-fg-color--light: #334155;
+  --md-primary-fg-color--dark: #27272a;
+  --md-primary-bg-color: #27272a;
+  --md-primary-bg-color--light: #616161;
+  --md-primary-bg-color--dark: #616161;
+  --md-accent-fg-color: #2367db;
+  --md-accent-fg-color--light: #ffbe16;
+  --md-accent-fg-color--very-light:rgba(255, 189, 22, 0.19);
+  --md-accent-fg-color--dark: #0c3a89;
+  --md-typeset-a-color: #1c51ad;
+  --md-typset-emph-color: #616161;
+}
+
+.md-header__title .md-ellipsis {
+  color: #616161;
+}
+
+.md-header__title .md-ellipsis {
+  color: #616161;
+}
+
+.md-source__icon,
+.md-source__repository {
+  color: #414141;
+}
+
+.md-search__form .md-search__icon {
+  color: #616161;
+}
+
+.md-header--shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+[data-md-color-scheme="whatsapp"] {
+  --md-primary-fg-color: #25d366;
+  --md-primary-fg-color--light: #dcf8c6;
+  --md-primary-fg-color--dark: #075e54;
+  --md-typeset-a-color: #128c7e;
+}
+
+.whatsapp {
+  background-color: #128c7e;
+  border-color: #128c7e !important;
+  color: #fff !important;
+  text-color: #fff !important;
+}
+
+.whatsapp:hover {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.whatsapp:active {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.whatsapp:focus {
+  background-color: #25d366 !important;
+  border-color: #25d366 !important;
+}
+
+.md-footer-meta__item--ufac-logo {
+  height: 2rem;
+  align-self: center;
+  margin-left: 1rem;
+  justify-self: center;
+
+}
+
+.md-footer-meta__item--copyright {
+  text-align: center;
+}
+
+@media (max-width: 530px) {
+  .md-footer-meta__item--copyright {
+    text-align: left;
+  }
+}
+
+@media (max-width: 462px) {
+  .md-footer-meta__item--ufac-logo {
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
+.md-footer-meta__item--ufac-logo img {
+  height: 100%;
+}
+
+
+/* Ambiente de figuras */
+
+
+
+figure figcaption {
+  font-size: 0.8rem;
+  color: var(-md-primary-bg-color--light);
+}
+
+figure figcaption::before {
+  content: " Figura: ";
+  font-weight: bold;
+  color: var(--md-primary-fg-color--dark);
+  border-left: 4px solid var(--md-accent-fg-color--light);
+  padding-left: 0.25rem;
+  /* color: #0c3a89; */
+}
+
+
+/* Admonitions */
+
+.emph-card {
+  /* background-color: var(--md-primary-bg-color--light); */
+  border: 1px solid var(--md-typeset-a-color);
+  border-radius: 0.2rem;
+  text-align: center;
+  padding: 0.4rem;
+  margin: 1rem 0rem;
+  box-shadow: 0 0.2rem 0.5rem #0000000d,0 0 0.05rem #0000001a;
+}
+
+.log-card {
+  border: solid 1px var(--md-default-fg-color--lightest);
+  padding: 0 0.75rem;
+  border-radius: 5px;
+  font-family: monospace;
+  max-height: 20rem;
+  font-size: 0.65rem;
+}
+
+/* .log-terminal{
+  font-family: monospace;
+}
+
+.log-output {
+  font-family: monospace;
+  max-height: 20rem;
+  font-size: 0.65rem;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--md-default-fg-color--lighter) white;
+}
+
+.log-output:hover {
+  scrollbar-color: var(--md-accent-fg-color) white;
+} */
+
+
+/* Cards */
+.card-link {
+  color: var(--md-typeset-color) !important;
+  position: relative;
+  padding-right: 1.3rem; /* Adjust as needed to make space for the icon */
+}
+
+.card-link-blue {
+  color: var(--md-typeset-a-color) !important;
+}
+
+.card-link:hover,
+.card-link-blue:hover {
+  color: var(--md-accent-fg-color) !important;
+}
+
+.card-link[data-download]::after {
+  content: '\f019'; /* Unicode for download icon, assuming you are using a font like FontAwesome */
+  font-family: 'FontAwesome'; /* Make sure to include the FontAwesome library in your project */
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  /* color: var(--md-accent-fg-color--light); */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .card-link[data-download]:hover::after {
+  color: var(--md-primary-bg-color--light); /* Change the color to yellow on hover */
+} */
+
+
+/* Lists */
+
+ol li::marker {
+  font-weight: bold;
+  color: var(--md-accent-fg-color--light);
+}
+
+ul li::marker {
+  font-weight: bold;
+  color: var(--md-accent-fg-color--light);
+}
+
+/* .md-typeset .admonition.tip, .md-typeset details.tip {
+  border-color: var(--md-accent-fg-color--light);
+  border-
+}
+
+.md-typeset .tip>.admonition-title:before, .md-typeset .tip>summary:before{
+  background-color: var(--md-accent-fg-color--light);
+}
+
+.md-typeset .tip>.admonition-title, .md-typeset .tip>summary{
+  background-color: var(--md-accent-fg-color--very-light);
+} */
