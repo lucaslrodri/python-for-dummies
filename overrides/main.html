@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block site_meta %}
+{{ super() }}
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="{{ config.site_name }}">
+<meta property="og:title" content="{% if not page.is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}">
+<meta property="og:description" content="{{ config.site_description }}">
+<meta property="og:image" content="https://lucaslrodri.github.io/python-for-dummies/assets/social/card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://lucaslrodri.github.io/python-for-dummies/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if not page.is_homepage %}{{ page.title }} - {% endif %}{{ config.site_name }}">
+<meta name="twitter:description" content="{{ config.site_description }}">
+<meta name="twitter:image" content="https://lucaslrodri.github.io/python-for-dummies/assets/social/twitter.png">
+<meta name="twitter:url" content="https://lucaslrodri.github.io/python-for-dummies/">
+{% endblock %}
+
+
+{% block content %}
+{% if page.nb_url %}
+    <a href="{{ page.nb_url }}" title="Baixe o Notebook" class="md-content__button md-icon">
+        <i class="fas fa-download fa-xl"></i>
+    </a>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
+
+:fontawesome-solid-download:
