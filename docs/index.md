@@ -43,9 +43,6 @@ hide:
 
 ### Capítulo 2: Saída de dados
 
-!!!info "Capítulo incompleto"
-    Este capítulo ainda está em desenvolvimento. Ainda faltam alguns conteúdos para serem adicionados.
-
 > Neste capítulo, exploraremos a função `print()`, a função `display()`, a formatação de strings e o método `.format()`. Também aprenderemos a expandir a linguagem Python por meio de módulos e pacotes, além de utilizar os módulos do IPython em conjunto com a função `display()`. Por fim, veremos como criar textos enriquecidos em Markdown, incluindo equações, tabelas e imagens.
 
 <div markdown="span" style="padding: 0 2rem">
