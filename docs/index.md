@@ -53,3 +53,18 @@ hide:
 [:material-package-variant:{ .lg .middle } Módulos e pacotes](./saida-de-dados/modulos-e-pacotes.ipynb){ .card .card-link  data-download="./saida-de-dados/modulos-e-pacotes.ipynb" }
 </div>
 </div>
+
+### Capítulo 3: Coleções
+
+!!!info "Capítulo incompleto"
+     Este capítulo ainda está em desenvolvimento. Ainda faltam alguns conteúdos para serem adicionados.
+
+> Neste capítulo, exploraremos as variáveis compostas do Python (Coleções): listas, tuplas e strings. Aprenderemos um pouco mais sobre o Numpy Arrays e exploraremos como criar gráficos usando o Matplotlib.
+
+<div markdown="span" style="padding: 0 2rem">
+<div class="grid cards" markdown="span">
+[:material-code-array:{ .lg .middle } Coleções](./colecoes/colecoes.ipynb){ .card .card-link data-download="./colecoes/colecoes.ipynb" }
+[:simple-numpy:{ .lg .middle } Numpy Arrays](./colecoes/numpy.ipynb){ .card .card-link  data-download="./colecoes/numpy.ipynb" }
+[:octicons-graph-24:{ .lg .middle } Matplotlib](./colecoes/matplotlib.ipynb){ .card .card-link  data-download="./variaveis-compostas/matplotlib.ipynb" }
+</div>
+</div>
